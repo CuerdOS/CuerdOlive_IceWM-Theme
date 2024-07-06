@@ -1,0 +1,106 @@
+ThemeName="CuerdOlive"
+ThemeDescription="Minimalistic, flat theme for IceWM."
+ThemeAuthor="CuerdOS Dev Team | cuerdoslinux@proton.me"
+OriginalAuthor="missTell | name@domain.com"
+License="GPL"
+Look=flat
+
+TitleBarHeight=27
+TitleBarCentered=1
+TitleBarJustify=54
+RolloverButtonsSupported=1
+ShowMenuButtonIcon=0			# Show application icon on menuButton
+
+TitleButtonsRight="xmi"
+TitleButtonsSupported="xmis"
+
+BorderSizeX=1
+BorderSizeY=1
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+MenuIconSize=24		    		# Menu
+SmallIconSize=24 			# Taskbar & Titlebar. Taskbar height = height of linux.xpm. Titlebar height = TitleBarHeight in *.theme
+LargeIconSize=32			# Quickswitch window
+HugeIconSize=48				# ?  Cannot identify what it applies to
+
+Gradients="menusel.xpm taskbarbg.xpm taskbuttonactive.xpm taskbuttonminimized.xpm"
+
+ColorNormalBorder="#171f15"
+ColorActiveBorder="#171f15"
+
+ColorNormalTitleBar="#ecfaa5"
+ColorNormalTitleBarText="#446442"
+ColorActiveTitleBar="#ceda8f"
+ColorActiveTitleBarText="#171f15"
+
+ColorNormalMenu="#ecfaa5"
+ColorActiveMenuItem="#171f15"
+ColorNormalMenuItemText="#171f15"
+ColorActiveMenuItemText="#ffffff"
+ColorDisabledMenuItemText="#7A7A7A"
+
+ColorMoveSizeStatus="#ecfaa5"
+ColorMoveSizeStatusText="#171f15"
+
+PagerShowBorders=0
+ColorDefaultTaskBar="#ceda8f"
+ColorNormalTaskBarApp="#ceda8f"
+ColorNormalTaskBarAppText="#446442"
+ColorActiveTaskBarApp="#c8f65d"
+ColorActiveTaskBarAppText="#ffffff"
+ColorMinimizedTaskBarApp="#ceda8f"
+ColorMinimizedTaskBarAppText="#446442"
+ColorActiveWorkspaceButton="#c8f65d"
+ColorActiveWorkspaceButtonText="#446442"
+
+ColorNormalButton="#ceda8f"
+ColorNormalButtonText="#446442"
+
+ColorListBox="#ecfaa5"
+ColorListBoxText="#171f15"
+ColorListBoxSelection="#c8f65d"
+ColorListBoxSelectionText="#171f15"
+
+ColorClock=""
+ColorClockText="#171f15"
+
+ColorToolTip="#ecfaa5"
+ColorToolTipText="#171f15"
+ColorLabel="#ecfaa5"
+ColorLabelText="#446442"
+ColorDialog="#ecfaa5"
+
+ColorQuickSwitch="#ecfaa5"
+ColorQuickSwitchActive="#c8f65d"
+ColorQuickSwitchText="#446442"
+ColorQuickSwitchSelectionText="#171f15"
+
+ColorInput="#c8f65d"
+ColorInputText="#171f15"
+ColorInputSelection="#f4ffe7"
+ColorInputSelectionText="#171f15"
+
+# --------------------
+# Fonts
+# --------------------
+TitleFontNameXft="SourceCodePro:size=11,sans-serif:size=11"
+ActiveTaskBarFontNameXft="SourceCodePro:size=11,Sans:size=11:bold"
+NormalTaskBarFontNameXft="SourceCodePro:size=11,Sans:size=11"
+ListBoxFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+ToolTipFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+ClockFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+MenuFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+StatusFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+QuickSwitchFontNameXft = "SourceCodePro:size=11,Sans:size=11"
+
+# --------------------
+# Desktop
+# --------------------
+DesktopBackgroundImage=""		# Prevent IceWM showing a background image
+DesktopBackgroundColor=""		# Prevent IceWM showing a background color
+DesktopBackgroundCenter=1
+DesktopBackgroundScaled=1
+#DesktopBackgroundColor="#c8f65d"
+DesktopBackgroundImage="default.png"
+

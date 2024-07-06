@@ -1,0 +1,7 @@
+/* XPM */
+static char * taskbarbg_small_xpm[] = {
+"1 2 2 1",
+" 	c #DEE6B2",
+".	c #C1D06E",
+" ",
+"."};
